@@ -1,0 +1,5 @@
+/** @mainpage
+*   KDE Multimedia API Dox.
+*/
+// DOXYGEN_NAME=kdemultimedia
+// DOXYGEN_ENABLE=YES

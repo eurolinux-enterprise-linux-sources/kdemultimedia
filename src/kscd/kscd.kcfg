@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <!--<include>KGlobalSettings</include>-->
+    <!--<include>kcompactdisc.h</include>-->
+	<include>KStandardDirs</include>
+    <kcfgfile name="kscdrc"/>
+    <group name="General">
+        <entry name="Autoplay" type="Bool">
+            <label>Start playing when a CD is inserted.</label>
+            <whatsthis>When this option is selected the CD will start playing automatically upon being inserted into the CD-ROM.</whatsthis>
+            <default>false</default>
+        </entry>
+        <entry name="EjectOnFinish" type="Bool">
+            <label>Eject CD when playing is finished.</label>
+            <whatsthis>When this option is selected the CD will automatically eject when it is finished.</whatsthis>
+            <default>false</default>
+        </entry>
+    </group>
+    <group name="Appearance">
+	<entry name="TextColor" type="Color">
+            <label>The text color that will be used in the panel.</label>
+	    <whatsthis>Change the color of the text in the panel</whatsthis>
+            <default>#000000</default>
+        </entry>
+        <entry name="TextFont" type="Font">
+            <label>The font that will be used for the panel.</label>
+	    <whatsthis>Change the font of the text in the panel</whatsthis>
+        </entry>
+	<entry name="url" type="String">
+		<default code="true">KStandardDirs::installPath("data") + "kscd/skin/default.svg"</default>
+	  <label>The skin that will be use for the application</label>
+	  <whatsthis>Change the skin of the application</whatsthis>
+	</entry>
+    </group>
+</kcfg>

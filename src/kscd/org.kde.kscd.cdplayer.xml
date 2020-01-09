@@ -1,0 +1,12 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="org.kde.kscd.CDPlayer">
+    <method name="playTrack">
+      <arg name="track" type="i" direction="in"/>
+    </method>
+    <method name="ejectShortcut"/>
+    <method name="muteShortcut"/>
+    <method name="randomShortcut"/>
+  </interface>
+</node>

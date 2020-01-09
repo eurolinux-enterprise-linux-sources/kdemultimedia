@@ -1,0 +1,50 @@
+[Desktop Entry]
+X-KDE-Solid-Predicate=[ StorageVolume.ignored == false AND OpticalDisc.availableContent == 'Audio' ]
+Type=Service
+Actions=open;
+
+[Desktop Action open]
+Exec=kscd -s
+Icon=kscd
+Name=Play Audio CD with KsCD
+Name[ar]=شغل أقراص صوتية بـ KsCD
+Name[bg]=Изпълнение на звукови дискове с KsCD
+Name[ca]=Reprodueix CD d'àudio amb el KsCD
+Name[cs]=Přehrát audio CD v KsCD
+Name[da]=Afspil lyd-cd med KsCD
+Name[de]=Audio-CD mit KsCD abspielen
+Name[el]=Αναπαραγωγή CD ήχου με το KsCD
+Name[en_GB]=Play Audio CD with KsCD
+Name[es]=Reproducir el CD de audio con KsCD
+Name[et]=Audio-CD esitamine KsCD-ga
+Name[fr]=Lire les CD audio avec KsCD
+Name[ga]=Seinn Dlúthdhiosca Fuaime le KsCD
+Name[gl]=Reproducir CD de audio con KsCD
+Name[he]=נגן תקליטור מוזיקה באמצעות KsCD
+Name[hu]=Hang-CD-lejátszás a KsCD-vel
+Name[is]=Spila hljóðdisk með KsCD
+Name[it]=Riproduci i CD audio con KsCD
+Name[ja]=KsCD でオーディオ CD を再生
+Name[km]=ចាក់​ស៊ីឌីអូឌីយ៉ូ​ដោយ​ប្រើ KsCD
+Name[lv]=Atskaņot Audio CD izmantojot KsCD programmu
+Name[nb]=Spill lyd-CD med KsCD
+Name[nds]=Klang-CD mit KsCD afspelen
+Name[nl]=Speel audio-cd af met KsCD
+Name[nn]=Spel lyd-CD med KsCD
+Name[pa]=KsCD ਨਾਲ ਆਡੀਓ ਸੀਡੀ ਚਲਾਓ
+Name[pl]=Odtwarzaj płyty CD z KsCD
+Name[pt]=Tocar o CD de Áudio com o KsCD
+Name[pt_BR]=Reproduzir CD de áudio com o KsCD
+Name[ro]=Redă CD Audio cu KsCD
+Name[ru]=Воспроизвести с помощью KsCD
+Name[sk]=Prehrať zvukové CD v KsCD
+Name[sl]=Predvajaj glasbeni CD s KsCD
+Name[sr]=Пусти аудио ЦД КсЦД‑ом
+Name[sr@latin]=Pusti audio CD KsCD‑om
+Name[sv]=Spela ljud-cd med Kscd
+Name[tr]=Ses CD'sini KsCD ile Çal
+Name[uk]=Відтворити звуковий КД за допомогою KsCD
+Name[wa]=Djouwer plake lazer odio avou KsCD
+Name[x-test]=xxPlay Audio CD with KsCDxx
+Name[zh_CN]=用 KsCD 播放音频 CD
+Name[zh_TW]=用 KsCD 播放音樂光碟

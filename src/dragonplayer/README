@@ -1,0 +1,44 @@
+INTRODUCTION
+  Dragon Player is a very simple Phonon-based media player. It was originally 
+  developed by Max Howell and called Codeine. I ported it to KDE 4.0 and on 
+  Max's suggestion renamed it to Video Player (probably, I might still
+  rename it.)  
+
+  Similar to Max, I make the following promises:
+
+    * I will not add any substantial features after version 2.0.0
+    * After then, improvements will only be in the realm of usability, bug
+      fixes, portability and allowing users to play their media.
+
+  The aim of Dragon Player is to "just play my video." Precedence will be given
+  to short simple menus and being configuration-free over additional features.
+ 
+  If you do have bugs, feature requests or (even better) features you want 
+  removed, you can usually catch me in #amarok on irc.kde.org using a variation
+  of the nick eean.
+
+  Thanks!
+  Ian Monroe <ian@monroe.nu>
+
+
+REQUIREMENTS
+  You will need at least:
+
+    * kdelibs 4.0
+    * The Xine backend for Phonon, located in kdebase
+    * xine-lib 1.1
+CMake is also required to build Video Player.
+
+Note that currently Xine is required since Phonon in KDE 4.0 lacks a few
+features (subtitle and multiple audio tracks). For KDE 4.1, Video Player
+should be a pure-Phonon player, with no explicit Xine requirement.
+
+You could hack the CMake build system and use Video Player without Xine,
+it would probably work fine just without the aforementioned features.
+
+DEBUG MESSAGES
+Dragon Player will output additional messages to the console if in your
+dragonplayerrc file (normally located at ~/.kde4/share/config/dragonplayerrc)
+you add the line:
+Debug Enabled=true
+under the [General] header.

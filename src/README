@@ -1,0 +1,45 @@
+In this file:
+
+* What it is
+* Common Mistakes
+* Debugging
+* More Info
+
+What it is
+----------
+
+* dragonplayer: Video Player is a very simple Phonon-based media player.
+* kmix: the audio mixer as a standalone program and Kicker applet
+* kscd: A CD player with an interface to the internet CDDB database
+
+The following are libraries and plugins that are building the core
+infrastructure of above applications:
+
+* strigi-analyzer: provide meta information about sound files
+* libkcddb: a library for retrieving and sending cddb information
+
+Common Mistakes
+---------------
+
+If configure claims Qt cannot be found, have a look at http://www.trolltech.com
+to get a copy of latest Qt 4.3.x version.
+
+Debugging
+---------
+You can use -DCMAKE_BUILD_TYPE=debugfull with the cmake command script, if you
+want to have debug code in your KDE apps and libs. We recommend to do this,
+since this is alpha software and this makes debugging things a whole lot
+easier.
+
+
+More Info
+---------
+
+Have a look at the individual subdirectories, if you want to know, what
+versions of apps are included.
+
+Please direct any bug reports to our bug list by visiting
+http://bugs.kde.org.
+
+General KDE discussions should go to the KDE mailing list (kde@kde.org).
+
